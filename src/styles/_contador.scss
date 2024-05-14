@@ -1,0 +1,22 @@
+.contador{
+  margin-top: 2%;
+  main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+
+  }
+  #dias{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+  }#hora{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

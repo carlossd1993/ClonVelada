@@ -1,0 +1,14 @@
+<section class="contador">
+  <main>
+    <h2>Para el inicio de la velada de año faltan...</h2>
+    <div class="container" id="dias">
+      <app-block [numero]="timeRemaining.days()" texto="dias"></app-block>
+    </div>
+    <div class="container" id="hora">
+      <app-block [numero]="timeRemaining.hours()" texto="horas"></app-block>:
+      <app-block [numero]="timeRemaining.minutes()" texto="minutos"></app-block>:
+      <app-block [numero]="timeRemaining.seconds()" texto="segundos"></app-block>
+    </div>
+
+  </main>
+</section>

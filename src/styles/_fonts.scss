@@ -4,3 +4,22 @@
 .agotadas{
   color: $acento;
 }
+@font-face{
+  font-family: "boxeador";
+  src: url("../assets/fonts/ElBoxeador.otf");
+}
+
+@mixin fuenteTitulos($tamaño){
+  font-family: boxeador;
+  font-size: $tamaño;
+}
+
+h1{
+  @include fuenteTitulos(2em);
+}
+h2{
+  @include fuenteTitulos(1.6em);
+}
+h3{
+  @include fuenteTitulos(1.4em);
+}

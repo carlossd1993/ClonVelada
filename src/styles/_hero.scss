@@ -13,12 +13,17 @@
         -webkit-text-stroke: 1px purple;
       }
     }
-    main{
-      width: 100vw;
-      height: 100vh;
 
-
-    }
+  }
+  main{
+    margin-top: 5%;
+    width: 100vw;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 .imagen{
@@ -30,10 +35,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin-top: 10%;
+    width: 70%;
     img{
-      width: 50%;
+      width: 40%;
     }
   }
   .imagenLogo{
@@ -41,5 +45,6 @@
     position: absolute;
     align-items: center;
     justify-content: center;
+
   }
 }

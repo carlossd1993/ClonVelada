@@ -11,6 +11,7 @@
   height: 100vh;
   z-index: -1;
   background-color: $colorMascara;
-  position: absolute;
+  position: fixed;
   opacity: .3;
+  background-size: cover;
 }

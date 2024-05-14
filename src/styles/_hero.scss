@@ -1,0 +1,45 @@
+.hero{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  header{
+    transform: rotate(-15deg);
+    a{
+      color: $blanco;
+      text-decoration: none;
+      &:hover{
+        -webkit-text-stroke: 1px purple;
+      }
+    }
+    main{
+      width: 100vw;
+      height: 100vh;
+
+
+    }
+  }
+}
+.imagen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .fondoLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    img{
+      width: 50%;
+    }
+  }
+  .imagenLogo{
+    z-index: 20;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -5,6 +5,6 @@ import {CombatDetailComponent} from "./pages/combat-detail/combat-detail.compone
 
 export const routes: Routes = [
   {path: "combates", component: CombatesComponent},
-  {path: "combates/combat/**", component: CombatDetailComponent},
+  {path: "combate/:id", component: CombatDetailComponent},
   {path: "**", component: HomeComponent}
 ];

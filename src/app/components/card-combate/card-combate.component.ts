@@ -1,10 +1,13 @@
 import {Component, Input, input, OnInit} from '@angular/core';
 import {Boxers, boxeadores} from "../../info/boxers";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-card-combate',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './card-combate.component.html',
   styleUrl: './card-combate.component.scss'
 })

@@ -1,9 +1,9 @@
 export interface Boxers{
-  id: string;
-  apodo: string;
-  img: string;
+  id?: string;
+  apodo?: string;
+  img?: string;
   versus?: string;
-  tandem: boolean;
+  tandem?: boolean;
 }
 
 export const boxeadores: Boxers[] = [
@@ -14,7 +14,7 @@ export const boxeadores: Boxers[] = [
   {id:"guanyar", apodo:"Guanyar", img:"guanyar", versus:"la_cobra", tandem:false},
   {id:"la_cobra", apodo:"LaCobra", img:"la_cobra", versus:"guanyar", tandem:false},
   {id:"zeling", apodo:"zeling", img:"zeling", tandem:true},
-  {id:"nissaxter", apodo:"nissaxter", img:"issaxter", tandem:true},
+  {id:"nissaxter", apodo:"nissaxter", img:"nissaxter", tandem:true},
   {id:"alana", apodo:"alana", img:"alana", tandem:true},
   {id:"ama", apodo:"AmaBlitz", img:"ama", tandem:true},
   {id:"viruzz", apodo:"ByViruzz", img:"viruzz", versus:"shelao", tandem:false},

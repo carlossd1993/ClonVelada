@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Boxers, boxeadores} from "../../boxers/boxers";
+import {Boxers, boxeadores} from "../../info/boxers";
 import {BoxerSelectionComponent} from "../boxer-selection/boxer-selection.component";
 
 @Component({
